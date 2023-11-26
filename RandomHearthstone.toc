@@ -1,0 +1,7 @@
+## Interface: 90205
+## Title: Random Hearthstone Macro
+## Author: Katur239
+## Version: 1.0
+## SavedVariables: RHTDB
+
+RandomHearthstone.lua
