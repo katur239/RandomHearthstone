@@ -37,6 +37,7 @@ AllHearthstoneToys[190237] = 367013 --Broker Translocation Matrix
 AllHearthstoneToys[190196] = 366945 --Enlightened Hearthstone
 AllHearthstoneToys[200630] = 391042 --Ohn'ir Windsage's Hearthstone
 AllHearthstoneToys[208704] = 420418 --Deepweller's Earth Hearthstone
+AllHearthstoneToys[209035] = 422284 --Hearthstone of the Flame
 
 --Which toy belongs to which Covenant
 CovenantHearthstones[184353] = 1 --Kyrian
@@ -157,7 +158,6 @@ function GetLearnedStones()
 	for k,_ in pairs(AllHearthstoneToys) do
 		if PlayerHasToy(k) then
 			if CovenantHearthstones[k] and CovenantHearthstones[k] ~= C_Covenants.GetActiveCovenantID() and not select(4,GetAchievementInfo(15241)) then
-				print("You must be a member or have reached Renowned 80 with this Covenant.")
 			else
 				--itemID, toyName, icon, isFavorite, hasFanfare, itemQuality = C_ToyBox.GetToyInfo(k)
 				--print("Learned Toy: ", toyName)
