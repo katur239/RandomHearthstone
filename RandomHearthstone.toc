@@ -4,4 +4,5 @@
 ## Version: 1.0
 ## SavedVariables: RHTDB
 
+Libs\AceConfig-3.0\AceConfig-3.0.xml
 RandomHearthstone.lua
