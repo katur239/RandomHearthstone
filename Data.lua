@@ -1,0 +1,79 @@
+local addonName, addon = ...
+
+addon.Toys = {}
+addon.ToyNames = {}
+addon.CovenantToys = {}
+
+--addon.Toys[itemID] = SpellID
+
+addon.Toys[166747] = 286353 --Brewfest Reveler’s Hearthstone
+addon.Toys[165802] = 286031 --Noble Gardener’s Hearthstone
+addon.Toys[165670] = 285424 --Peedlefeet’s Lovely Hearthstone	
+addon.Toys[165669] = 285362 --Lunar Elder’s Hearthstone
+addon.Toys[166746] = 286331 --Fire Eater’s Hearthstone
+addon.Toys[163045] = 278559 --Headless Horseman’s Hearthstone
+addon.Toys[162973] = 278244 --Greatfather Winter’s Hearthstone
+addon.Toys[142542] = 231504 --Tome of Town Portal
+addon.Toys[64488]  = 94719  --The Innkeeper's Daughter
+addon.Toys[54452]  = 75136  --Ethereal Portal
+addon.Toys[93672]  = 136508 --Dark Portal
+addon.Toys[168907] = 298068 --Holographic Digitalization
+addon.Toys[172179] = 308742 --Eternal Traveler’s Hearthstone
+addon.Toys[182773] = 340200 --Necrolord Hearthstone
+addon.Toys[180290] = 326064 --Night Fae Hearthstone
+addon.Toys[184353] = 345393 --Kyrian Hearthstone
+addon.Toys[183716] = 342122 --Venthyr Hearthstone
+addon.Toys[188952] = 363799 --Dominated Hearthstone
+addon.Toys[193588] = 375357 --Timewalker's Hearthstone
+addon.Toys[190237] = 367013 --Broker Translocation Matrix
+addon.Toys[190196] = 366945 --Enlightened Hearthstone
+addon.Toys[200630] = 391042 --Ohn'ir Windsage's Hearthstone
+addon.Toys[208704] = 420418 --Deepweller's Earth Hearthstone
+addon.Toys[209035] = 422284 --Hearthstone of the Flame
+addon.Toys[206195] = 412555 --Path of the Naaru
+addon.Toys[212337] = 401802 --Stone of the Hearth
+addon.Toys[228940] = 463481 --Notorious Thread's Hearthstone
+addon.Toys[236687] = 1220729 --Explosive Hearthstone
+addon.Toys[235016] = 1217281 --Redeployment Module
+addon.Toys[245970] = 1240219 --P.O.S.T. Master's Express Hearthstone
+addon.Toys[246565] = 1242509 --Cosmic Hearthstone
+
+addon.ToyNames[6948]   = "Default Hearthstone"
+addon.ToyNames[166747] = "Brewfest Reveler’s Hearthstone"
+addon.ToyNames[165802] = "Noble Gardener’s Hearthstone"
+addon.ToyNames[165670] = "Peedlefeet’s Lovely Hearthstone"
+addon.ToyNames[165669] = "Lunar Elder’s Hearthstone"
+addon.ToyNames[166746] = "Fire Eater’s Hearthstone"
+addon.ToyNames[163045] = "Headless Horseman’s Hearthstone"
+addon.ToyNames[162973] = "Greatfather Winter’s Hearthstone"
+addon.ToyNames[142542] = "Tome of Town Portal"
+addon.ToyNames[64488]  = "The Innkeeper's Daughter"
+addon.ToyNames[54452]  = "Ethereal Portal"
+addon.ToyNames[93672]  = "Dark Portal"
+addon.ToyNames[168907] = "Holographic Digitalization"
+addon.ToyNames[172179] = "Eternal Traveler’s Hearthstone"
+addon.ToyNames[182773] = "Necrolord Hearthstone"
+addon.ToyNames[180290] = "Night Fae Hearthstone"
+addon.ToyNames[184353] = "Kyrian Hearthstone"
+addon.ToyNames[183716] = "Venthyr Hearthstone"
+addon.ToyNames[188952] = "Dominated Hearthstone"
+addon.ToyNames[193588] = "Timewalker's Hearthstone"
+addon.ToyNames[190237] = "Broker Translocation Matrix"
+addon.ToyNames[190196] = "Enlightened Hearthstone"
+addon.ToyNames[200630] = "Ohn'ir Windsage's Hearthstone"
+addon.ToyNames[208704] = "Deepweller's Earth Hearthstone"
+addon.ToyNames[209035] = "Hearthstone of the Flame"
+addon.ToyNames[206195] = "Path of the Naaru"
+addon.ToyNames[212337] = "Stone of the Hearth"
+addon.ToyNames[228940] = "Notorious Thread's Hearthstone"
+addon.ToyNames[236687] = "Explosive Hearthstone"
+addon.ToyNames[235016] = "Redeployment Module"
+addon.ToyNames[245970] =  "P.O.S.T. Master's Express Hearthstone"
+addon.ToyNames[246565] = "Cosmic Hearthstone"
+
+
+--Which toy belongs to which Covenant
+addon.CovenantToys[184353] = 1 --Kyrian
+addon.CovenantToys[183716] = 2 --Venthyr
+addon.CovenantToys[180290] = 3 --Night Fae
+addon.CovenantToys[182773] = 4 --Necrolord
